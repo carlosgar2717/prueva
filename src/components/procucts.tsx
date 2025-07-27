@@ -1,5 +1,4 @@
 type props = {
-  nombreprodut: string;
   setnombreprodut: string;
   inputvalue: string;
   setinputvalue: string;
@@ -11,18 +10,13 @@ type props = {
   setiva: number;
   ganancia: number;
   setganancia: number;
-  total: number;
   setTotal: number;
   setcantridadpro: number;
-  cantidadpro: number;
-  cambio: number;
   setcambio: number;
-  ivapro: number;
   setivapro: number;
 };
 
 function procucts({
-  nombreprodut,
   setnombreprodut,
   inputvalue,
   setinputvalue,
@@ -34,13 +28,9 @@ function procucts({
   setiva,
   ganancia,
   setganancia,
-  total,
   setTotal,
-  cantidadpro,
   setcantridadpro,
-  cambio,
   setcambio,
-  ivapro,
   setivapro,
 }: props) {
   const estilo = {

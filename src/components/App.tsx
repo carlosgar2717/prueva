@@ -5,8 +5,8 @@ import Operation from "../components/operation";
 import { useState } from "react";
 
 function App() {
-  const [nombreproduct, setNombreprodut] = useState();
-  const [inputvalue, setInputvalue] = useState();
+  const [nombreproduct, setNombreprodut] = useState("");
+  const [inputvalue, setInputvalue] = useState("");
   const [cantidad, setCantidad] = useState(0);
   const [costo, setCosto] = useState(0);
   const [iva, setIva] = useState(0);
@@ -24,7 +24,6 @@ function App() {
         <h1>Producto</h1>
         <div className="productdata">
           <Products
-            nombreprodut={nombreproduct}
             setnombreprodut={setNombreprodut}
             inputvalue={inputvalue}
             setinputvalue={setInputvalue}

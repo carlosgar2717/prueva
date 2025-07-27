@@ -1,4 +1,3 @@
-import React from "react";
 type props = {
   operation: string;
   total: number;
@@ -9,8 +8,8 @@ type props = {
 function operation({ operation, total, cantidad, costo, iva }: props) {
   const estilos = {
     data: {
-      textAlign: "center",
-      marginTop: "15px",
+      display: "block",
+      justifyContent: "center",
     },
     p: {
       marginTop: "35px",
